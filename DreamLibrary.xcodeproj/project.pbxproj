@@ -22,6 +22,7 @@
 		56AC50822AC7E98800377272 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 56AC50812AC7E98800377272 /* FirebaseDatabase */; };
 		56AC50842AC7E98800377272 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 56AC50832AC7E98800377272 /* FirebaseDatabaseSwift */; };
 		56AC50862AC7E98800377272 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 56AC50852AC7E98800377272 /* FirebaseStorage */; };
+		56AC50882AC7ED4D00377272 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56AC50872AC7ED4D00377272 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		56AC50632AC7E85B00377272 /* DreamLibraryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DreamLibraryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56AC50672AC7E85B00377272 /* DreamLibraryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamLibraryUITests.swift; sourceTree = "<group>"; };
 		56AC50692AC7E85B00377272 /* DreamLibraryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamLibraryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		56AC50872AC7ED4D00377272 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 		56AC504B2AC7E85300377272 /* DreamLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				56AC50872AC7ED4D00377272 /* GoogleService-Info.plist */,
 				56AC504C2AC7E85300377272 /* DreamLibraryApp.swift */,
 				56AC504E2AC7E85300377272 /* ContentView.swift */,
 				56AC50502AC7E85700377272 /* Assets.xcassets */,
@@ -262,6 +265,7 @@
 			files = (
 				56AC50542AC7E85700377272 /* Preview Assets.xcassets in Resources */,
 				56AC50512AC7E85700377272 /* Assets.xcassets in Resources */,
+				56AC50882AC7ED4D00377272 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
